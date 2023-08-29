@@ -57,3 +57,6 @@ triggerBeat = (event) => {
  * Keydown listener to fire triggerBeat function
  * HINT: Log the keyCode of the key
  */
+
+let keyPress = document.getElementById("65");
+keyPress.addEventListener('keydown')
