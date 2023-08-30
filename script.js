@@ -59,4 +59,6 @@ triggerBeat = (event) => {
  */
 
 let keyPress = document.getElementById("65");
-keyPress.addEventListener('keydown')
+keyPress.addEventListener('keydown', (event) =>{
+console.log(`key=${event.key},code=${event.code}`)
+});
